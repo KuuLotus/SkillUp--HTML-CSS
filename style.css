@@ -1,0 +1,439 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.header-group{
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+
+.header-logo{
+  text-decoration: none;
+}
+
+.logo{
+  height: 70px;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav-list{
+  line-height: 70px;
+  list-style: none;
+  font-size: 16px;
+  color: #fafafa;
+  padding: 0 30px;
+}
+
+#mv{
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.mv-text-box{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.mv-title{
+  font-size: 64px;
+  color: #fafafa;
+  padding-top: 200px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mv-text{
+  font-size: 20px;
+  color: #fafafa;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#portfolio, #profile{
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.pf-container{
+  width: 920px;
+  margin: 0 auto;
+  padding: 90px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 8px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#portfolio p{
+  font-size: 16px;
+  color: #000;
+  margin: 30px 0;
+}
+
+.portfolio-image{
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.box1{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.box2{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.box3{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box4{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px 10px 0 0;
+}
+
+.box5{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 10px 10px 0 0;
+}
+
+.box6{
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
+#feature .container{
+  width: 980px;
+  margin: 0 auto;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.feature-text{
+  font-size: 16px;
+  color: #000;
+  padding: 30px 0;
+}
+
+.box{
+  display: flex;
+}
+
+.strength{
+  width: 320px;
+  margin-right: 10px;
+}
+
+.strength:nth-child(3){
+  margin: 0;
+}
+
+.strength i{
+  font-size: 60px;
+}
+
+.strength h3{
+  font-size: 20px;
+  color: #000;
+  padding: 10px 0;
+}
+
+.strength p{
+  margin-right: 10px;
+  text-align: left;
+}
+
+.profile-container{
+  width: 1024px;
+  margin: 0 auto;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.profile-text{
+  font-size: 16px;
+  color: #000;
+  margin: 30px 0;
+}
+
+.profile-group{
+  display: flex;
+}
+
+.myimg, .myprofile{
+  width: 512px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.myface{
+  background-image: url(img/my-icon.jpg);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.myprofile h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.myname{
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.myskill{
+  font-size: 16px;
+  color: #000;
+  text-align: left;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.contact-text{
+  font-size: 16px;
+  color: #000;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.contact-info{
+  display: flex;
+}
+
+.mail-tel,
+.sns-icon{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.info-title{
+  margin-bottom: 5px;
+}
+
+.info-icon{
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.info-icon:last-child{
+  margin: 0;
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #ec715f;
+}
+
+.copyright{
+  font-size: 16px;
+  color: #fafafa;
+  text-align: center;
+  line-height: 60px;
+}
+
+@media screen and (max-width: 768px){
+  header{
+    height: 50px;
+  }
+
+  .header-group{
+    width: 90%;
+  }
+
+  .header-logo{
+    height: 50px;
+  }
+
+  .logo{
+    height: 50px;
+  }
+
+  .menu-box{
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #fafafa;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+  }
+
+  .list-bar:first-child{
+    margin-top: 10px;
+  }
+
+  .list-bar{
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #fafafa;
+  }
+
+  .nav-list{
+    display: none;
+  }
+
+  #mv{
+    background-image: url(img/code.png);
+  }
+
+  .mv-text-box{
+    width: 90%;
+  }
+
+  .mv-title{
+    width: 90%;
+    font-size: 40px;
+    margin: 0 auto;
+  }
+
+  .mv-text{
+    font-size: 18px;
+  }
+
+  .pf-container{
+    width: 90%;
+  }
+
+  .portfolio-image{
+    width: 300px;
+    display: block;
+  }
+
+  .box1,
+  .box3,
+  .box5{
+    display: none;
+  }
+
+  #feature .container{
+    width: 90%;
+  }
+
+  .box{
+    display: block;
+  }
+
+  .strength{
+    margin: 0 auto;
+  }
+
+  .strength:nth-child(3){
+    margin: 0 auto;
+  }
+
+  .strength p{
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+  .profile-container{
+    width: 90%;
+  }
+
+  .profile-group{
+    display: block;
+  }
+
+  .myimg,.myprofile{
+    width: 90%;
+  }
+
+  .myprofile h3{
+    margin-top: 20px;
+  }
+
+  .myname{
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .myskill{
+    text-align: center;
+  }
+
+  #contact .container{
+    width: 90%;
+  }
+
+  #contact h2{
+    text-align: center;
+  }
+
+  .contact-info{
+    display: block;
+    text-align: center;
+  }
+
+  .info-title1{
+    margin-bottom: 0;
+  }
+
+  .info-title{
+    margin-top: 20px;
+  }
+}
+
+
+
